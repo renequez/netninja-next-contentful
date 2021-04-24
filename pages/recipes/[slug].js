@@ -29,7 +29,7 @@ export async function getStaticProps({ params }) {
 	if (!items.length) {
 		return {
 			redirect: {
-				destination: '/',
+				destination: '/404',
 				permanent: false,
 			},
 		};
